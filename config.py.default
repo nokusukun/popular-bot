@@ -1,0 +1,5 @@
+#popular-bot specific configurations settings
+
+REDDIT_SECRET = ""
+REDDIT_ID = ""
+CALLBACK_URL = ""

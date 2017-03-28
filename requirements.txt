@@ -1,0 +1,13 @@
+arrow
+discord.py
+tinydb
+fuzzywuzzy
+pyowm
+urbandict
+langdetect
+iso639
+flask
+markovify
+heroku3
+lxml
+praw

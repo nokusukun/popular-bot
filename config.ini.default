@@ -1,0 +1,24 @@
+[client]
+token = TOKEN_HERE
+nick = Popular Bot
+prefix = !
+debug = 0
+
+[Admin]
+groups = Admin, Owner
+
+[Mod]
+groups = Mod
+
+[Member]
+groups = Member
+
+[Default]
+groups = @everyone
+
+[MAL]
+username =
+password =
+
+[OSU]
+apikey =
