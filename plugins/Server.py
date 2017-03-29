@@ -14,6 +14,8 @@ import requests.auth
 import urllib
 from lxml import html
 import praw
+import config
+
 
 class Plugin(object):
     def __init__(self, pm):
@@ -27,7 +29,7 @@ class Plugin(object):
             "r/enoughtrumpspam",
             "r/hillaryforprison",
             "r/marchofempires"]
-        self.reddit =  reddit = praw.Reddit(client_id="r7r6bX1KP4lKJQ", client_secret="NHOCyYy3QV6_Gg-GZX07K87G_yg", user_agent="/r/popularmods")
+        self.reddit =  reddit = praw.Reddit(client_id=config.REDDIT_ID, client_secret=config.REDDIT_SECRET, user_agent="/r/popularmods")
 
 
 
